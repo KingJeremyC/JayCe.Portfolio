@@ -95,10 +95,15 @@ body {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(to top, #a57575, #b8b8b8);
+  white-space: normal;
+  word-wrap: break-word;
+  width: 100%;
 }
 
 body p{
   text-indent: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .kingnothing {
@@ -193,11 +198,20 @@ body p{
 }
 
 .projectapps img {
-  width: 2.5%;
+  width: 4%;
   height: auto;
+  padding: 10px;
   object-fit: cover; /* or contain */
 }
 
+.extra {
+  
+}
+
+.extra .extralinks {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Contact Me (contact) Edits */
 #contact {
